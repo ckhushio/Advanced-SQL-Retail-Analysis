@@ -51,6 +51,23 @@ DATEDIFF(MONTH, min(CONVERT(date, tran_date,105)) ,max(CONVERT(date, tran_date,1
 DATEDIFF(DAY,min(CONVERT(date, tran_date,105)),max(CONVERT(date, tran_date,105))) as TOTAL_DAYS
 from Transactions;
 
+***Product Insights***  
+- Identified which category the sub-category **DIY** belongs to.  
+- Found how many **subcategories exist under Books**.  
+- Analyzed categories with **highest average revenue** compared to the overall average.  
+- Found **top 5 subcategories** by sales vs returns percentage.
 
-## 📂 Project Structure  
+###***Time-Based Revenue Analysis***  
+- Found the **time range** covered by the transactions dataset.  
+- Calculated **revenue from customers aged 25–35 in the last 30 days** of data.  
+- Identified which **product category had the highest returns in the last 3 months**.
+---
+
+##🌟Unique Takeaway  
+This project demonstrates how **advanced SQL alone** can perform:  
+
+- **Data Cleaning** (fixing dates, handling returns).  
+- **Business Insights** (customer behavior, category performance, store efficiency).  
+- **Revenue Analysis** (net revenue, category-level contribution, returns impact).  
+
 
